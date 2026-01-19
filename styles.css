@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: #fff5f8;
+  color: #5a3e36;
+  text-align: center;
+}
+
+.hero {
+  background-image: url("img/portada.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+
+.imagen-nombre {
+  width: 280px;      /* tamaño normal */
+  max-width: 80%;
+  height: auto;
+}
+
+
+.nombre {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5em;
+  color: #c97c9f;
+}
+
+.apellido {
+  font-size: 1.6em;
+  color: #b08968;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+h3 {
+  color: #b08968;
+  margin-bottom: 15px;
+}
+
+.texto {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+#timer {
+  font-size: 1.8em;
+  color: #c97c9f;
+  font-weight: bold;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #c97c9f;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.boton:hover {
+  background: #b56576;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+footer {
+  padding: 30px;
+  font-size: 0.9em;
+  color: #777;
+}
